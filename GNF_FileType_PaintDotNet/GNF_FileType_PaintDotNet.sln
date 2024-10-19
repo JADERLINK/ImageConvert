@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35201.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GNF_FileType_PaintDotNet", "GNF_FileType_PaintDotNet\GNF_FileType_PaintDotNet.csproj", "{1E65A43D-E03C-4B95-B079-8DBDA4CA414C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "GFDLibrary", "..\ImageConvert\GFDLibrary\GFDLibrary.shproj", "{A4348821-C6F3-48DA-B9B2-896FA86652D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E65A43D-E03C-4B95-B079-8DBDA4CA414C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E65A43D-E03C-4B95-B079-8DBDA4CA414C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E65A43D-E03C-4B95-B079-8DBDA4CA414C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E65A43D-E03C-4B95-B079-8DBDA4CA414C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58FEAF76-2B01-4976-A90D-5777E58EC238}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\ImageConvert\GFDLibrary\GFDLibrary.projitems*{1e65a43d-e03c-4b95-b079-8dbda4ca414c}*SharedItemsImports = 5
+		..\ImageConvert\GFDLibrary\GFDLibrary.projitems*{a4348821-c6f3-48da-b9b2-896fa86652d3}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

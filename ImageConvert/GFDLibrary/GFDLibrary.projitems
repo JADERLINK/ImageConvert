@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>a4348821-c6f3-48da-b9b2-896fa86652d3</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>GFDLibrary</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\DDS\DDSD3D10ResourceDimension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\DDS\DDSDxgiFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\DDS\DDSFormatDetails.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\DDS\DDSHeader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\DDS\DDSHeaderCaps.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\DDS\DDSHeaderFlags.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\DDS\DDSPixelFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\DDS\DDSPixelFormatFlags.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\DDS\DDSPixelFormatFourCC.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\DDS\DDSStream.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\GNF\ChannelType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\GNF\GNFTexture.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\GNF\SamplerModulationFactor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\GNF\SurfaceFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\GNF\TextureChannel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\GNF\TextureType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\GNF\TileMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\Swizzle\INullSwizzleAlgorithm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\Swizzle\ISwizzleAlgorithm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\Swizzle\PS4SwizzleAlgorithm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\Swizzle\Swizzler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\Swizzle\SwizzleUtilities.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GFDLibrary.Textures\TexturePixelFormat.cs" />
+  </ItemGroup>
+</Project>
