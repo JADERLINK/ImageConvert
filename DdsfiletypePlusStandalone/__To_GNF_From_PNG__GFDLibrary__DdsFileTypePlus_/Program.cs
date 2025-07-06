@@ -11,7 +11,7 @@ namespace __To_GNF_From_PNG__GFDLibrary__DdsFileTypePlus_
             System.Globalization.CultureInfo.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
 
             Console.WriteLine("__To_GNF_From_PNG__GFDLibrary__DdsFileTypePlus_");
-            Console.WriteLine("Version 1.0");
+            Console.WriteLine("Version 1.1");
             Console.WriteLine("");
 
             JSON.Config config = null;

@@ -7,12 +7,16 @@ Convert from GNF, DDS and TGA to PNG and vice versa; (also included GNF Plugin f
 <br>Language: C#
 <br>Platform: Windows
 <br>Dependency: Microsoft .NET Framework 4.8
-<br>Dependency: Microsoft .NET 8
+<br>Dependency: Microsoft .NET 8 and .NET 9
 
 **Translate from Portuguese Brazil**
 
 Conjunto de programas destinados a converter as texturas dos formatos GNF, DDS e TGA para PNG e vice-versa, e também converter de GNF para DDS e vice-versa.
 <br> Para usar, basta arrastar a textura/imagem em cima do executável que ele vai converter para o formato de saída.
+
+**Update V.1.1 2025-07-06**
+<br>Corrigido um erro em GFDLibrary que ao salvar/Converter para imagem GNF, imagens com largura não múltiplas de 32, eram exibidas incorretamente no jogo(RE4);
+<br>Atualizou o Plugin do paint.net para ser compatível com a versão v5.1.8 do programa;
 
 ### ImageConvert Tools:
 

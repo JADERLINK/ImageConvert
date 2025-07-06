@@ -28,7 +28,7 @@ namespace GnfFileType
 
                 var FileFormatProp = (StaticListChoiceProperty)config.GetProperty("FileFormat");
                 var FileFormatType = FileFormatProp.DefaultValue.GetType();
-                var indexBC3 = FileFormatProp.ValueChoices.IndexOf(Enum.Parse(FileFormatType, "BC3"));
+                var indexBC3 = Array.IndexOf(FileFormatProp.ValueChoices, Enum.Parse(FileFormatType, "BC3"));
 
                 var newFileFormat = new StaticListChoiceProperty("FileFormat", FileFormatProp.ValueChoices, indexBC3, false);
 

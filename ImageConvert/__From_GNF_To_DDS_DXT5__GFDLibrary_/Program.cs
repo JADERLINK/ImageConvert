@@ -14,7 +14,7 @@ namespace __From_GNF_To_DDS_DXT5__GFDLibrary_
             System.Globalization.CultureInfo.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
 
             Console.WriteLine("__From_GNF_To_DDS_DXT5__GFDLibrary_");
-            Console.WriteLine("Version 1.0");
+            Console.WriteLine("Version 1.1");
             Console.WriteLine("");
 
             for (int i = 0; i < args.Length; i++)

@@ -462,7 +462,7 @@ namespace GFDLibrary.Textures.GNF
             MinLodWarning              = 0;
             MipStatsCounterIndex       = 0;
             MipStatsEnabled            = false;
-            Pitch                      = Width;
+            Pitch                      = ((Width + 31) / 32) * 32;
             SamplerModulationFactor    = SamplerModulationFactor.Factor1_0000;
             TileMode                   = TileMode.Thin_1DThin;
             TextureType                = TextureType.Type2D;

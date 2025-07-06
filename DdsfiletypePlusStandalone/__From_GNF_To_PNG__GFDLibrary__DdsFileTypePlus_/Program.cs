@@ -10,7 +10,7 @@ namespace __From_GNF_To_PNG__GFDLibrary__DdsFileTypePlus_
             System.Globalization.CultureInfo.CurrentCulture = System.Globalization.CultureInfo.InvariantCulture;
 
             Console.WriteLine("__From_GNF_To_PNG__GFDLibrary__DdsFileTypePlus_");
-            Console.WriteLine("Version 1.0");
+            Console.WriteLine("Version 1.1");
             Console.WriteLine("");
 
             for (int i = 0; i < args.Length; i++)
